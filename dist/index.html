@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link href="css/style.css" rel="stylesheet" />
+    <title>Tab Bar</title>
+  </head>
+  <body>
+    <div class="tab">
+      <button data-button="html" class="tablinks">HTML</button>
+      <button data-button="css" class="tablinks">CSS</button>
+      <button data-button="javascript" class="tablinks">JavaScript</button>
+      <button data-button="python"  class="tablinks">Python</button>
+    </div>
+    <div data-content="html" class="hidden">
+      <h3>HTML</h3>
+      <p>
+        Stands for "Hypertext Markup Language." <br />
+        HTML is the language used to create webpages.<br />
+        "Hypertext" refers to the hyperlinks that an HTML page may contain.
+        <br />
+        "Markup language" refers to the way tags are used to define the page
+        layout and elements within the page.
+      </p>
+    </div>
+
+    <div data-content="css" class="hidden">
+      <h3>CSS</h3>
+      <p>
+        Stands for "Cascading Style Sheet." <br />Cascading style sheets are
+        used to format the layout of Web pages.<br />
+        They can be used to define text styles, table sizes, and other aspects
+        of Web pages that previously could only be defined in a page's HTML.
+      </p>
+    </div>
+
+    <div data-content="javascript" class="hidden">
+      <h3>JavaScript</h3>
+      <p>
+        JavaScript is a programming language commonly used in web
+        development.<br />
+        It was originally developed by Netscape as a means to add dynamic and
+        interactive elements to websites.<br />
+        While JavaScript is influenced by Java, the syntax is more similar to C
+        and is based on ECMAScript, a scripting language developed by Sun
+        Microsystems.
+      </p>
+    </div>
+    <div data-content="python" class="hidden">
+      <h3>Python</h3>
+      <p>
+        Python is a high-level programming language designed to be easy to read
+        and simple to implement.<br />
+        It is open source, which means it is free to use, even for commercial
+        applications.<br />
+        Python can run on Mac, Windows, and Unix systems and has also been
+        ported to Java and .NET virtual machines.
+      </p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

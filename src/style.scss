@@ -1,0 +1,44 @@
+.tab {
+  width: 700px;
+  margin: auto;
+  overflow: hidden;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background-color: #0ab8be;
+}
+
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+.tablinks:hover {
+  background-color: #48cbcf;
+}
+
+.tablinks:focus {
+  background-color: #60dfff;
+}
+
+.hidden {
+  display: none;
+}
+
+.display {
+  width: 674px;
+  margin: auto;
+  display: block;
+  background-color: #60dfff;
+  padding: 6px 12px;
+  border: 1px solid #60dfff;
+  border-top: none;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px; 
+}
+
+
