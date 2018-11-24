@@ -1,4 +1,3 @@
-
 (function () {
   const x = document.querySelectorAll('.tablinks');
   for (let i = 0; i < x.length; i++) {
